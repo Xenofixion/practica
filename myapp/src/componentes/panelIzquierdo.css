@@ -1,0 +1,63 @@
+.panelIzquierdo{
+    color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color:rgb(21, 21, 211);
+    z-index: 1;
+    width: 500px;
+    height: 100%;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition:0.5s;
+}
+
+.panelIzquierdo p{
+    padding: 8px 8px 8px 32px;
+    font-size: 25px;
+    color: #ffef5e;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .panelIzquierdo button{
+    margin: 8px 8px 8px 32px;
+    padding: 8px 8px 8px 8px;
+  }
+  
+  .panelIzquierdo p:hover {
+    color: #f1f1f1;
+  }
+
+  @media screen and (max-height: 450px) {
+    .panelIzquierdo {
+        padding-top: 15px;
+
+    }
+    .panelIzquierdo p {
+        font-size: 18px;
+        padding: 8px 8px 8px 8px;    
+    }
+    .panelIzquierdo button{
+        margin-left:0;
+    }
+  }
+
+  @media screen and (max-width: 360px) {
+    .panelIzquierdo {
+        height: 100px;
+        width: 100%;
+        padding-top:15px;
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .panelIzquierdo p {
+        font-size: 18px;
+        padding: 8px 8px 8px 8px;
+    }
+
+    .panelIzquierdo button{
+        margin-left:0;
+    }
+  }
