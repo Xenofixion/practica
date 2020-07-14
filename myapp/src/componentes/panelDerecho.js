@@ -23,16 +23,10 @@ function useCoordenadas (){
 
 //COMPONENTE
 const PanelDerecho = (props) => {
-    const coordenadas = useCoordenadas();
-
-    return  coordenadas.latitud == null ?
-    
-    (<div>Cargando...</div>)
-    :
-    (
+    return(
         <div className="PanelDerecho">
-            <p>Latitud: {coordenadas.latitud}</p>
-            <p>Longitud: {coordenadas.longitud}</p>
+            <p>Latitud:</p>
+            <p>Longitud:</p>
         </div>
     );
 }

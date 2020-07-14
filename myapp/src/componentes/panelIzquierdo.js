@@ -4,7 +4,7 @@ import './panelIzquierdo.css';
 const PanelIzquierdo = (props) => {
 
     const [cuenta, setCuenta]= useState(0);
-
+    
     return (
         <div className="panelIzquierdo">
             <p>PRESIONE PARA AUMENTAR</p>
