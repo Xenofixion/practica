@@ -3,12 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import PanelIzquierdo from './componentes/panelIzquierdo';
 import PanelDerecho from './componentes/panelDerecho';
+import PanelDerecho2 from './componentes/panelDerecho2';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
     <PanelIzquierdo/>
-    <PanelDerecho/>
+    <PanelDerecho2/>
   </React.StrictMode>,
   document.getElementById('root')
 );
